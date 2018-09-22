@@ -1,0 +1,59 @@
+.carousel-inner img {
+    width: 100%;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -15px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 0%;
+    margin-left: 0%;
+    list-style: none;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 0%;
+    bottom: -20px;
+    left: 0%;
+    z-index: 54;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    background-color: #000000ad;
+    padding-left: 30px;
+}
+
+.miniHaberDiv{
+    position: absolute;
+    background-color: #000000ad;
+    bottom: 0px;
+    width: calc(100% - 30px);
+    height: 60px;
+    padding-left: 15px;
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .haberTitle, .miniHaberDiv .haberTitle {
+        font-size: 18px;
+    }
+
+    .haberSnippet, .miniHaberDiv .haberSnippet {
+        font-size: 11px;
+    }
+
+    .carousel-caption {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .miniHaberDiv{
+        height: 48px;
+    }
+}

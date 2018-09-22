@@ -1,0 +1,11 @@
+<div class="row my-3">
+  <div class="col-12 mb-2">
+    <h1 class="haberTitle">{{ haber.title }}</h1>
+  </div>
+  <div class="col-12 mb-4">
+    <img src="{{haber.image}}" alt="." class="img-fluid" />
+  </div>
+  <div class="col-12 mb-4">
+    <div class="haberBody" [innerHtml]="haber.body"></div>
+  </div>
+</div>

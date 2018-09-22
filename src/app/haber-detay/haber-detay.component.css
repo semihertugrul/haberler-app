@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+    .haberTitle{
+        font-size: 20px;
+    }
+
+    .haberBody{
+        font-size: 13px;
+    }
+
+    
+}
